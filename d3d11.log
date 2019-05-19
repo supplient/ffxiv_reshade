@@ -1,0 +1,653 @@
+20:09:43:343 [12024] | INFO  | Initializing crosire's ReShade version '5.0.0.27' (64-bit) built on '2018-12-26 14:21:49' loaded from "D:\\games\\FF14\\最终幻想XIV\\game\\d3d11.dll" to "D:\\games\\FF14\\最终幻想XIV\\game\\ffxiv_dx11.exe" ...
+20:09:43:449 [12024] | INFO  | Registering hooks for "user32.dll" ...
+20:09:43:450 [12024] | INFO  | > Libraries loaded.
+20:09:43:450 [12024] | INFO  | > Found 13 match(es). Installing ...
+20:09:43:471 [12024] | INFO  | Registering hooks for "ws2_32.dll" ...
+20:09:43:471 [12024] | INFO  | > Libraries loaded.
+20:09:43:471 [12024] | INFO  | > Found 8 match(es). Installing ...
+20:09:43:493 [12024] | INFO  | Registering hooks for "C:\\WINDOWS\\system32\\d3d9.dll" ...
+20:09:43:494 [12024] | INFO  | > Libraries loaded.
+20:09:43:494 [12024] | INFO  | > Found 9 match(es). Installing ...
+20:09:43:514 [12024] | INFO  | Registering hooks for "C:\\WINDOWS\\system32\\d3d10.dll" ...
+20:09:43:515 [12024] | INFO  | > Delayed.
+20:09:43:515 [12024] | INFO  | Registering hooks for "C:\\WINDOWS\\system32\\d3d10_1.dll" ...
+20:09:43:515 [12024] | INFO  | > Delayed.
+20:09:43:515 [12024] | INFO  | Registering hooks for "C:\\WINDOWS\\system32\\d3d11.dll" ...
+20:09:43:515 [12024] | INFO  | > Delayed until first call to an exported function.
+20:09:43:515 [12024] | INFO  | Registering hooks for "C:\\WINDOWS\\system32\\dxgi.dll" ...
+20:09:43:515 [12024] | INFO  | > Libraries loaded.
+20:09:43:515 [12024] | INFO  | > Found 7 match(es). Installing ...
+20:09:43:538 [12024] | INFO  | Registering hooks for "C:\\WINDOWS\\system32\\opengl32.dll" ...
+20:09:43:538 [12024] | INFO  | > Delayed.
+20:09:43:538 [12024] | INFO  | Initialized.
+20:09:43:583 [12024] | INFO  | Redirecting 'RegisterClassExA(0000005AD57DF890)' ...
+20:09:43:583 [12024] | INFO  | > Adding 'CS_OWNDC' window class style flag to 'FFXIVGAME'.
+20:09:44:064 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DF138)' ...
+20:09:44:064 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+20:09:44:064 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DF138)' ...
+20:09:44:111 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DF1C8)' ...
+20:09:44:111 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+20:09:44:111 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DF1C8)' ...
+20:09:44:112 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DF250)' ...
+20:09:44:112 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+20:09:44:112 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DF250)' ...
+20:09:44:115 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DF2D8)' ...
+20:09:44:115 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+20:09:44:115 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DF2D8)' ...
+20:09:44:116 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000020FDC0262E8)' ...
+20:09:44:116 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+20:09:44:116 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000020FDC0262E8)' ...
+20:09:44:117 [12024] | INFO  | Redirecting 'D3D11CreateDevice(0000020FDB22BD20, 0, 0000000000000000, 0, 0000005AD57DF374, 1, 7, 0000020FDC0262F8, 0000020FDC0262E4, 0000020FDC026300)' ...
+20:09:44:117 [12024] | INFO  | > Passing on to 'D3D11CreateDeviceAndSwapChain':
+20:09:44:117 [12024] | INFO  | Redirecting 'D3D11CreateDeviceAndSwapChain(0000020FDB22BD20, 0, 0000000000000000, 0, 0000005AD57DF374, 1, 7, 0000000000000000, 0000000000000000, 0000020FDC0262F8, 0000020FDC0262E4, 0000020FDC026300)' ...
+20:09:44:118 [12024] | INFO  | Installing export hooks for "C:\\WINDOWS\\system32\\d3d11.dll" ...
+20:09:44:118 [12024] | INFO  | > Found 2 match(es). Installing ...
+20:09:44:202 [12024] | INFO  | > Using feature level 0xb000.
+20:09:44:202 [12024] | INFO  | Redirecting 'IDXGIFactory::CreateSwapChain(0000020FD80D93B0, 0000020FE1F1D710, 0000005AD57DF3F0, 0000005AD57DF378)' ...
+20:09:44:202 [12024] | INFO  | > Dumping swap chain description:
+20:09:44:202 [12024] | INFO  |   +-----------------------------------------+-----------------------------------------+
+20:09:44:202 [12024] | INFO  |   | Parameter                               | Value                                   |
+20:09:44:202 [12024] | INFO  |   +-----------------------------------------+-----------------------------------------+
+20:09:44:202 [12024] | INFO  |   | Width                                   | 1600                                    |
+20:09:44:202 [12024] | INFO  |   | Height                                  | 915                                     |
+20:09:44:202 [12024] | INFO  |   | RefreshRate                             | 141400000           2356200             |
+20:09:44:202 [12024] | INFO  |   | Format                                  | 28                                      |
+20:09:44:202 [12024] | INFO  |   | ScanlineOrdering                        | 1                                       |
+20:09:44:202 [12024] | INFO  |   | Scaling                                 | 0                                       |
+20:09:44:202 [12024] | INFO  |   | SampleCount                             | 1                                       |
+20:09:44:202 [12024] | INFO  |   | SampleQuality                           | 0                                       |
+20:09:44:202 [12024] | INFO  |   | BufferUsage                             | 32                                      |
+20:09:44:202 [12024] | INFO  |   | BufferCount                             | 2                                       |
+20:09:44:202 [12024] | INFO  |   | OutputWindow                            | 0000000000120652                        |
+20:09:44:202 [12024] | INFO  |   | Windowed                                | TRUE                                    |
+20:09:44:202 [12024] | INFO  |   | SwapEffect                              | 0                                       |
+20:09:44:202 [12024] | INFO  |   | Flags                                   | 0x2                                     |
+20:09:44:202 [12024] | INFO  |   +-----------------------------------------+-----------------------------------------+
+20:09:45:246 [12024] | INFO  | Recreated runtime environment on runtime 0000020FE1F97D00.
+20:09:45:740 [12024] | INFO  | Redirecting 'IDXGISwapChain::SetFullscreenState(0000020FE2090600, FALSE, 0000000000000000)' ...
+20:09:52:137 [22380] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmicAnamorphSharpen.fx".
+20:09:52:138 [04676] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:09:52:138 [23524] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:09:52:139 [23064] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\NFAA.fx".
+20:09:52:140 [04892] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:09:52:140 [03504] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:09:52:140 [14712] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Splitscreen.fx".
+20:09:52:141 [09052] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Chromakey.fx".
+20:09:52:141 [06328] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:09:52:141 [08680] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:09:52:141 [09128] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:09:52:141 [13544] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:09:52:142 [13628] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:09:52:147 [00572] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:09:52:148 [05880] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\EyeAdaption.fx".
+20:09:52:149 [08364] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:09:52:149 [13152] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:09:52:149 [13652] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_lightroom.fx".
+20:09:52:149 [16660] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:09:52:150 [00940] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:09:52:150 [23232] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:09:53:845 [12024] | INFO  | Loading image files for textures ...
+20:10:28:468 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DE4B8)' ...
+20:10:28:468 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+20:10:28:468 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DE4B8)' ...
+20:10:30:067 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DE548)' ...
+20:10:30:067 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+20:10:30:067 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DE548)' ...
+20:10:30:883 [12024] | INFO  | Redirecting 'IDXGISwapChain::ResizeBuffers(0000020FE2090600, 2, 1600, 900, 28, 0x2)' ...
+20:10:30:884 [12024] | INFO  | Destroyed runtime environment on runtime 0000020FE1F97D00.
+20:10:30:886 [12024] | INFO  | Recreated runtime environment on runtime 0000020FE1F97D00.
+20:10:31:367 [12024] | INFO  | Redirecting 'IDXGISwapChain::SetFullscreenState(0000020FE2090600, TRUE, 0000020FE1DA0F30)' ...
+20:10:31:681 [12024] | INFO  | Redirecting 'IDXGISwapChain::SetFullscreenState(0000020FE2090600, TRUE, 0000020FE1DA0F30)' ...
+20:10:31:738 [09536] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Chromakey.fx".
+20:10:31:739 [14248] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:10:31:739 [15760] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:10:31:741 [10872] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:10:31:741 [20524] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:10:31:743 [22284] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\EyeAdaption.fx".
+20:10:31:743 [18844] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:10:31:745 [08412] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:10:31:745 [18956] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:10:31:745 [09880] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmicAnamorphSharpen.fx".
+20:10:31:748 [18408] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:10:31:749 [18272] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:10:31:750 [11044] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\NFAA.fx".
+20:10:31:751 [19844] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:10:31:754 [11120] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Splitscreen.fx".
+20:10:31:755 [18816] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:10:31:757 [11496] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_lightroom.fx".
+20:10:31:758 [19292] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:10:31:759 [01344] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:10:31:761 [20216] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:10:31:764 [23428] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:10:31:911 [12024] | INFO  | Loading image files for textures ...
+20:10:34:132 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DE4A8)' ...
+20:10:34:132 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+20:10:34:132 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DE4A8)' ...
+20:10:34:214 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DF258)' ...
+20:10:34:214 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+20:10:34:214 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DF258)' ...
+20:12:28:387 [23412] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Chromakey.fx".
+20:12:28:388 [08148] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:12:28:388 [01756] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:12:28:389 [20676] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:12:28:389 [05924] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:12:28:390 [17284] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:12:28:391 [02180] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\EyeAdaption.fx".
+20:12:28:392 [00276] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:12:28:393 [12192] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmicAnamorphSharpen.fx".
+20:12:28:394 [23208] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:12:28:396 [18500] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:12:28:396 [13188] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\NFAA.fx".
+20:12:28:397 [19392] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:12:28:398 [05740] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:12:28:400 [11464] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Splitscreen.fx".
+20:12:28:401 [16028] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:12:28:402 [05548] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:12:28:403 [12828] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_lightroom.fx".
+20:12:28:404 [18440] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:12:28:405 [19520] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:12:28:408 [04492] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:12:29:056 [12024] | INFO  | Loading image files for textures ...
+20:12:32:995 [12024] | INFO  | Loading image files for textures ...
+20:12:34:823 [12024] | INFO  | Loading image files for textures ...
+20:13:24:865 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DEF48)' ...
+20:13:24:865 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+20:13:24:865 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DEF48)' ...
+20:13:27:132 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DE548)' ...
+20:13:27:132 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+20:13:27:132 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DE548)' ...
+20:13:29:665 [12024] | INFO  | Redirecting 'IDXGISwapChain::SetFullscreenState(0000020FE2090600, TRUE, 0000020FE1DA0F30)' ...
+20:13:29:753 [12024] | INFO  | Redirecting 'IDXGISwapChain::SetFullscreenState(0000020FE2090600, TRUE, 0000020FE1DA0F30)' ...
+20:13:29:781 [12024] | INFO  | Redirecting 'IDXGISwapChain::SetFullscreenState(0000020FE2090600, FALSE, 0000000000000000)' ...
+20:13:30:068 [12024] | INFO  | Redirecting 'IDXGISwapChain::ResizeBuffers(0000020FE2090600, 2, 1600, 915, 28, 0x2)' ...
+20:13:30:069 [12024] | INFO  | Destroyed runtime environment on runtime 0000020FE1F97D00.
+20:13:30:071 [12024] | INFO  | Recreated runtime environment on runtime 0000020FE1F97D00.
+20:13:30:898 [07032] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Chromakey.fx".
+20:13:30:901 [14536] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:13:30:901 [09412] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:13:30:902 [08536] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:13:30:903 [13292] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:13:30:906 [14424] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:13:30:908 [13120] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:13:30:909 [21904] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\EyeAdaption.fx".
+20:13:30:909 [20116] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmicAnamorphSharpen.fx".
+20:13:30:913 [22996] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:13:30:915 [08872] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:13:30:917 [12208] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:13:30:917 [23452] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\NFAA.fx".
+20:13:30:918 [20340] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:13:30:923 [14560] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:13:30:929 [13740] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Splitscreen.fx".
+20:13:30:931 [17120] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_lightroom.fx".
+20:13:30:932 [17208] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:13:30:933 [15008] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:13:30:934 [22024] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:13:30:936 [17732] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:13:31:891 [12024] | INFO  | Loading image files for textures ...
+20:13:33:114 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DE4A8)' ...
+20:13:33:114 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+20:13:33:114 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DE4A8)' ...
+20:13:33:147 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DF258)' ...
+20:13:33:147 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+20:13:33:147 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DF258)' ...
+20:13:39:182 [12024] | INFO  | Loading image files for textures ...
+20:14:25:999 [19948] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Chromakey.fx".
+20:14:26:000 [21160] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:14:26:000 [14556] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:14:26:003 [12768] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:14:26:003 [01424] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:14:26:005 [10968] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\EyeAdaption.fx".
+20:14:26:005 [20396] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:14:26:006 [00968] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmicAnamorphSharpen.fx".
+20:14:26:007 [08304] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:14:26:007 [06968] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:14:26:010 [16640] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:14:26:012 [22252] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\NFAA.fx".
+20:14:26:012 [18588] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:14:26:013 [19476] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:14:26:015 [03764] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Splitscreen.fx".
+20:14:26:017 [21280] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:14:26:017 [23384] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:14:26:020 [22956] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:14:26:021 [07844] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_lightroom.fx".
+20:14:26:022 [14852] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:14:26:023 [01660] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:14:26:098 [12024] | INFO  | Loading image files for textures ...
+20:14:33:117 [14368] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Chromakey.fx".
+20:14:33:118 [17460] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:14:33:119 [14052] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:14:33:120 [21700] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:14:33:120 [03556] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:14:33:122 [04408] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:14:33:123 [11652] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\EyeAdaption.fx".
+20:14:33:123 [23260] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmicAnamorphSharpen.fx".
+20:14:33:123 [01144] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:14:33:125 [13796] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:14:33:126 [09320] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:14:33:127 [03492] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\NFAA.fx".
+20:14:33:128 [15736] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:14:33:128 [01788] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:14:33:131 [21692] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Splitscreen.fx".
+20:14:33:132 [15560] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:14:33:133 [01740] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:14:33:133 [17032] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:14:33:134 [20724] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_lightroom.fx".
+20:14:33:135 [07892] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:14:33:141 [19236] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:14:33:187 [12024] | INFO  | Loading image files for textures ...
+20:14:35:414 [17888] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Chromakey.fx".
+20:14:35:415 [03824] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:14:35:415 [19160] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:14:35:417 [19608] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:14:35:417 [06184] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:14:35:420 [22720] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\EyeAdaption.fx".
+20:14:35:420 [20700] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:14:35:421 [13148] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmicAnamorphSharpen.fx".
+20:14:35:422 [05908] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:14:35:422 [15208] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:14:35:425 [03524] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:14:35:426 [11424] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\NFAA.fx".
+20:14:35:427 [22324] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:14:35:428 [09612] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:14:35:430 [05568] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Splitscreen.fx".
+20:14:35:431 [03340] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:14:35:432 [17152] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:14:35:434 [15820] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:14:35:435 [05288] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:14:35:435 [22032] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_lightroom.fx".
+20:14:35:442 [22084] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:14:35:485 [12024] | INFO  | Loading image files for textures ...
+20:14:37:045 [04568] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Chromakey.fx".
+20:14:37:046 [07312] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:14:37:047 [10944] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:14:37:047 [15120] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:14:37:047 [13412] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:14:37:049 [02340] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:14:37:050 [23492] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmicAnamorphSharpen.fx".
+20:14:37:052 [14084] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:14:37:052 [19544] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\EyeAdaption.fx".
+20:14:37:054 [03772] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:14:37:054 [12984] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:14:37:055 [00568] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:14:37:057 [21040] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\NFAA.fx".
+20:14:37:057 [20172] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:14:37:059 [17756] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Splitscreen.fx".
+20:14:37:060 [17296] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:14:37:060 [11076] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:14:37:061 [21464] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:14:37:062 [04304] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:14:37:063 [14004] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_lightroom.fx".
+20:14:37:070 [06364] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:14:37:119 [12024] | INFO  | Loading image files for textures ...
+20:14:59:169 [12024] | INFO  | Loading image files for textures ...
+20:15:10:195 [12024] | INFO  | Loading image files for textures ...
+20:15:12:189 [16928] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Chromakey.fx".
+20:15:12:190 [10188] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:15:12:190 [19328] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:15:12:191 [13540] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:15:12:191 [16052] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:15:12:192 [08856] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\EyeAdaption.fx".
+20:15:12:192 [06140] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:15:12:194 [16536] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:15:12:195 [13980] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmicAnamorphSharpen.fx".
+20:15:12:197 [10544] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:15:12:198 [20884] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\NFAA.fx".
+20:15:12:198 [11280] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:15:12:199 [23136] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:15:12:200 [09180] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:15:12:202 [00976] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Splitscreen.fx".
+20:15:12:203 [19752] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:15:12:204 [19100] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:15:12:204 [09964] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:15:12:205 [14096] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_lightroom.fx".
+20:15:12:206 [22660] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:15:12:210 [10864] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:15:12:577 [12024] | INFO  | Loading image files for textures ...
+20:18:59:346 [19616] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Chromakey.fx".
+20:18:59:347 [18732] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:18:59:349 [08024] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:18:59:349 [18900] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:18:59:351 [06576] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:18:59:352 [05980] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\AmbientLight.fx".
+20:18:59:353 [18104] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:18:59:354 [16740] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\EyeAdaption.fx".
+20:18:59:354 [06600] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmicAnamorphSharpen.fx".
+20:18:59:354 [13436] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:18:59:355 [21572] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:18:59:357 [21960] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:18:59:359 [22540] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\NFAA.fx".
+20:18:59:360 [05100] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:18:59:362 [13880] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:18:59:363 [15332] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Splitscreen.fx".
+20:18:59:364 [11096] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:18:59:365 [05008] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:18:59:367 [20760] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_lightroom.fx".
+20:18:59:367 [06888] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:18:59:368 [13800] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:18:59:373 [12012] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:18:59:417 [12024] | INFO  | Loading image files for textures ...
+20:19:07:195 [12024] | INFO  | Loading image files for textures ...
+20:19:08:077 [12024] | INFO  | > Resizing image data for texture 'V__lensDBTex' from 1024x576 to 1920x1080 ...
+20:19:08:467 [12024] | INFO  | > Resizing image data for texture 'V__lensDB2Tex' from 1024x576 to 1920x1080 ...
+20:19:08:923 [12024] | INFO  | > Resizing image data for texture 'V__lensDOVTex' from 4096x2048 to 1920x1080 ...
+20:22:05:437 [12024] | INFO  | Loading image files for textures ...
+20:22:05:588 [12024] | INFO  | > Resizing image data for texture 'V__lensDBTex' from 1024x576 to 1920x1080 ...
+20:22:05:669 [12024] | INFO  | > Resizing image data for texture 'V__lensDB2Tex' from 1024x576 to 1920x1080 ...
+20:22:05:953 [12024] | INFO  | > Resizing image data for texture 'V__lensDOVTex' from 4096x2048 to 1920x1080 ...
+20:28:27:094 [12024] | INFO  | Loading image files for textures ...
+20:28:27:256 [12024] | INFO  | > Resizing image data for texture 'V__lensDBTex' from 1024x576 to 1920x1080 ...
+20:28:27:339 [12024] | INFO  | > Resizing image data for texture 'V__lensDB2Tex' from 1024x576 to 1920x1080 ...
+20:28:27:619 [12024] | INFO  | > Resizing image data for texture 'V__lensDOVTex' from 4096x2048 to 1920x1080 ...
+20:37:15:113 [05560] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Chromakey.fx".
+20:37:15:114 [19196] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:37:15:115 [22148] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:37:15:115 [18988] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:37:15:115 [04740] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:37:15:116 [15860] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:37:15:117 [20712] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\EyeAdaption.fx".
+20:37:15:118 [19992] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmicAnamorphSharpen.fx".
+20:37:15:119 [19780] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:37:15:124 [16748] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\NFAA.fx".
+20:37:15:124 [22888] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:37:15:124 [11780] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:37:15:125 [21608] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:37:15:126 [21832] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:37:15:127 [08184] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:37:15:129 [05620] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Splitscreen.fx".
+20:37:15:130 [10036] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:37:15:132 [00240] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:37:15:132 [17456] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_lightroom.fx".
+20:37:15:132 [06204] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:37:15:139 [23184] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:37:15:181 [12024] | INFO  | Loading image files for textures ...
+20:37:46:091 [12024] | INFO  | Loading image files for textures ...
+20:38:02:956 [12024] | INFO  | Loading image files for textures ...
+20:38:58:977 [07172] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:38:58:977 [23316] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:38:58:977 [15364] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:38:58:979 [18940] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:38:58:980 [12088] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:38:58:980 [17824] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:38:58:981 [14548] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:38:58:986 [11112] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:38:58:986 [15660] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:38:58:987 [22120] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:38:58:988 [11144] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:38:58:988 [17140] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:38:58:990 [00224] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:38:58:990 [05552] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:38:58:999 [10716] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:38:59:030 [12024] | INFO  | Loading image files for textures ...
+20:41:06:535 [13392] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\AdaptiveFog.fx".
+20:41:06:536 [14408] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\3DFX.fx".
+20:41:06:537 [04676] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\ColorMatrix.fx".
+20:41:06:538 [08040] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Colourfulness.fx".
+20:41:06:541 [07912] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:41:06:541 [13628] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CRT.fx".
+20:41:06:542 [10124] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Bloom.fx".
+20:41:06:543 [18708] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Daltonize.fx".
+20:41:06:544 [16768] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:41:06:544 [12528] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:41:06:544 [12860] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:41:06:545 [17348] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:41:06:545 [10208] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:41:06:546 [03796] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:41:06:547 [17544] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:41:06:551 [06404] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:41:06:552 [06740] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:41:06:552 [09904] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:41:06:553 [21980] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:41:06:554 [10168] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:41:06:555 [22256] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:41:06:560 [13920] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:41:06:603 [12024] | INFO  | Loading image files for textures ...
+20:41:17:564 [12024] | INFO  | Loading image files for textures ...
+20:41:47:978 [12024] | INFO  | Loading image files for textures ...
+20:42:17:301 [12024] | INFO  | Loading image files for textures ...
+20:42:45:768 [12024] | INFO  | Loading image files for textures ...
+20:43:03:548 [12024] | INFO  | Loading image files for textures ...
+20:44:32:498 [12024] | INFO  | Loading image files for textures ...
+20:44:32:506 [12024] | INFO  | > Resizing image data for texture 'V__texDirt' from 1024x576 to 1920x1080 ...
+20:45:55:324 [12024] | INFO  | Loading image files for textures ...
+20:45:55:332 [12024] | INFO  | > Resizing image data for texture 'V__texDirt' from 1024x576 to 1920x1080 ...
+20:48:56:644 [15320] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:48:56:644 [18060] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Denoise.fx".
+20:48:56:644 [20528] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:48:56:645 [18824] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:48:56:645 [16896] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:48:56:646 [13012] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DPX.fx".
+20:48:56:647 [09308] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:48:56:647 [22744] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FakeHDR.fx".
+20:48:56:647 [05256] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmGrain.fx".
+20:48:56:648 [21656] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:48:56:649 [07052] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmGrain2.fx".
+20:48:56:651 [08600] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:48:56:652 [21572] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:48:56:653 [05980] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:48:56:655 [18900] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:48:56:656 [19616] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:48:56:657 [18732] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:48:56:657 [06576] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:48:56:658 [16740] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:48:56:662 [08024] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:48:56:707 [12024] | INFO  | Loading image files for textures ...
+20:49:07:062 [12024] | INFO  | Loading image files for textures ...
+20:49:20:482 [12024] | INFO  | Loading image files for textures ...
+20:51:31:388 [12024] | INFO  | Loading image files for textures ...
+20:55:32:018 [12024] | INFO  | Loading image files for textures ...
+20:55:59:065 [12024] | INFO  | Loading image files for textures ...
+20:56:45:918 [05548] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+20:56:45:918 [07668] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+20:56:45:918 [01576] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+20:56:45:920 [11220] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+20:56:45:920 [02576] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+20:56:45:921 [07684] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FilmicPass.fx".
+20:56:45:922 [03608] | WARN  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Glitch.fx" with warnings:
+D:\games\FF14\鏈�缁堝够鎯砐IV\game\reshade-shaders\Shaders\Glitch.fx(55, 30): warning X3206: implicit truncation of vector type
+D:\games\FF14\鏈�缁堝够鎯砐IV\game\reshade-shaders\Shaders\Glitch.fx(55, 34): warning X3206: implicit truncation of vector type
+
+20:56:45:922 [23040] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\HQ4X.fx".
+20:56:45:923 [15024] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Levels.fx".
+20:56:45:923 [22288] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\LiftGammaGain.fx".
+20:56:45:923 [07288] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+20:56:45:925 [05608] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+20:56:45:926 [16916] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+20:56:45:929 [13356] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+20:56:45:930 [19140] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+20:56:45:931 [17160] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+20:56:45:931 [14468] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+20:56:45:932 [16400] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+20:56:45:932 [20624] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+20:56:45:935 [20520] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+20:56:45:989 [12024] | INFO  | Loading image files for textures ...
+20:56:48:433 [12024] | INFO  | Loading image files for textures ...
+20:58:11:496 [12024] | INFO  | Loading image files for textures ...
+20:58:18:765 [12024] | INFO  | Loading image files for textures ...
+20:59:00:294 [12024] | INFO  | Loading image files for textures ...
+21:00:22:215 [12024] | INFO  | Loading image files for textures ...
+21:02:36:067 [22460] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+21:02:36:067 [11420] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+21:02:36:067 [12372] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+21:02:36:068 [12840] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+21:02:36:069 [08216] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+21:02:36:070 [11348] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+21:02:36:071 [04316] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\NightVision.fx".
+21:02:36:074 [19888] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Nostalgia.fx".
+21:02:36:074 [09420] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+21:02:36:074 [14120] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+21:02:36:075 [06276] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+21:02:36:076 [17100] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+21:02:36:076 [21760] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Sepia.fx".
+21:02:36:077 [21804] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+21:02:36:078 [08536] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\ReflectiveBumpMapping.fx".
+21:02:36:079 [08448] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+21:02:36:080 [07528] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+21:02:36:080 [08716] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+21:02:36:085 [22568] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+21:02:36:137 [12024] | INFO  | Loading image files for textures ...
+21:02:44:151 [12024] | INFO  | Loading image files for textures ...
+21:02:45:857 [12024] | INFO  | Loading image files for textures ...
+21:02:48:561 [12024] | INFO  | Loading image files for textures ...
+21:03:20:853 [12024] | INFO  | Loading image files for textures ...
+21:06:40:820 [20240] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+21:06:40:820 [19732] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+21:06:40:820 [15636] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+21:06:40:821 [03360] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+21:06:40:822 [16104] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+21:06:40:822 [08664] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+21:06:40:826 [19332] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+21:06:40:828 [10316] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+21:06:40:828 [14632] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+21:06:40:828 [14184] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+21:06:40:833 [11184] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+21:06:40:833 [14748] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SurfaceBlur.fx".
+21:06:40:834 [22864] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+21:06:40:835 [09820] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\TiltShift.fx".
+21:06:40:836 [21576] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Tonemap.fx".
+21:06:40:836 [17548] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+21:06:40:838 [10908] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+21:06:40:840 [06504] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+21:06:40:886 [12024] | INFO  | Loading image files for textures ...
+21:06:43:716 [12024] | INFO  | Loading image files for textures ...
+21:07:54:487 [12024] | INFO  | Loading image files for textures ...
+21:08:03:346 [12024] | INFO  | Loading image files for textures ...
+21:11:22:831 [12024] | INFO  | Loading image files for textures ...
+21:11:35:211 [12024] | INFO  | Loading image files for textures ...
+21:17:43:429 [12024] | INFO  | Loading image files for textures ...
+21:19:18:684 [12024] | INFO  | Loading image files for textures ...
+21:19:56:448 [17068] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+21:19:56:448 [06140] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+21:19:56:448 [14480] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+21:19:56:449 [03380] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+21:19:56:449 [18940] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+21:19:56:450 [16460] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+21:19:56:451 [14280] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+21:19:56:455 [14596] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+21:19:56:457 [19508] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+21:19:56:457 [18152] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+21:19:56:457 [22884] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+21:19:56:459 [09776] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Tonemap.fx".
+21:19:56:460 [19112] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+21:19:56:460 [22556] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+21:19:56:460 [05292] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vignette.fx".
+21:19:56:468 [14696] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+21:19:56:511 [19288] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+21:19:56:619 [12024] | INFO  | Loading image files for textures ...
+21:20:06:891 [12024] | INFO  | Loading image files for textures ...
+21:22:33:685 [12024] | INFO  | Loading image files for textures ...
+21:31:45:095 [19764] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+21:31:45:095 [09644] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+21:31:45:095 [15408] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+21:31:45:096 [19828] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+21:31:45:096 [01408] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+21:31:45:097 [03488] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+21:31:45:099 [13300] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+21:31:45:102 [07656] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+21:31:45:102 [08240] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+21:31:45:104 [18664] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+21:31:45:104 [03928] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Tonemap.fx".
+21:31:45:105 [22280] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+21:31:45:105 [00608] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+21:31:45:105 [14868] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+21:31:45:106 [09936] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+21:31:45:113 [01804] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+21:31:45:152 [12024] | INFO  | Loading image files for textures ...
+21:31:47:536 [12024] | INFO  | Loading image files for textures ...
+21:32:02:443 [12024] | INFO  | Loading image files for textures ...
+21:32:04:695 [12024] | INFO  | Loading image files for textures ...
+21:32:05:674 [12024] | INFO  | Loading image files for textures ...
+21:32:38:271 [12024] | INFO  | Loading image files for textures ...
+21:33:49:704 [18640] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+21:33:49:704 [15952] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+21:33:49:705 [08544] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+21:33:49:706 [07868] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+21:33:49:707 [07896] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+21:33:49:708 [07892] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+21:33:49:711 [17400] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+21:33:49:713 [16132] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+21:33:49:716 [11452] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+21:33:49:717 [18288] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+21:33:49:717 [20276] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+21:33:49:718 [06760] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+21:33:49:719 [02916] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Tonemap.fx".
+21:33:49:720 [05880] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+21:33:49:721 [06672] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+21:33:49:729 [06152] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+21:33:49:891 [12024] | INFO  | Loading image files for textures ...
+21:34:10:932 [17332] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+21:34:10:932 [01008] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+21:34:10:932 [08336] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+21:34:10:933 [19980] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+21:34:10:933 [20872] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+21:34:10:933 [03876] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+21:34:10:935 [06788] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+21:34:10:939 [16316] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+21:34:10:939 [17984] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+21:34:10:939 [21260] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+21:34:10:940 [06272] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+21:34:10:941 [20000] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Tonemap.fx".
+21:34:10:941 [05068] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+21:34:10:943 [03848] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+21:34:10:943 [22868] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+21:34:10:952 [23160] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+21:34:11:019 [12024] | INFO  | Loading image files for textures ...
+21:34:29:864 [22660] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+21:34:29:864 [06284] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+21:34:29:864 [14892] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+21:34:29:865 [07556] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+21:34:29:865 [01208] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\FFXIVGUILayer.fx".
+21:34:29:865 [23280] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+21:34:29:866 [16024] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+21:34:29:870 [21888] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+21:34:29:871 [09960] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+21:34:29:872 [18612] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+21:34:29:872 [12752] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+21:34:29:873 [09332] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Tonemap.fx".
+21:34:29:873 [12984] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+21:34:29:873 [22604] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+21:34:29:874 [15136] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+21:34:29:883 [14360] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+21:34:29:946 [12024] | INFO  | Loading image files for textures ...
+21:35:25:885 [12024] | INFO  | Loading image files for textures ...
+21:36:06:161 [04972] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Deband.fx".
+21:36:06:161 [01556] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+21:36:06:161 [14100] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+21:36:06:163 [16728] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+21:36:06:163 [21984] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+21:36:06:165 [01980] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+21:36:06:170 [15080] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+21:36:06:170 [19368] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+21:36:06:171 [14400] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+21:36:06:171 [04632] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+21:36:06:172 [06200] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Tonemap.fx".
+21:36:06:173 [05404] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+21:36:06:173 [10500] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+21:36:06:179 [17888] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+21:36:06:193 [07284] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+21:36:06:223 [12024] | INFO  | Loading image files for textures ...
+21:36:09:189 [12024] | INFO  | Loading image files for textures ...
+21:36:11:349 [12024] | INFO  | Loading image files for textures ...
+21:36:13:155 [12024] | INFO  | Loading image files for textures ...
+21:36:18:312 [12024] | INFO  | Loading image files for textures ...
+21:36:47:179 [12024] | INFO  | Loading image files for textures ...
+21:39:03:005 [12024] | INFO  | Loading image files for textures ...
+21:39:59:713 [18156] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Dither.fx".
+21:39:59:713 [21708] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MultiLUT.fx".
+21:39:59:713 [22148] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Curves.fx".
+21:39:59:714 [17616] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\DepthHaze.fx".
+21:39:59:716 [12308] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\OldLUT.fx".
+21:39:59:720 [13780] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAO.fx".
+21:39:59:721 [00240] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\MXAOHIGH.fx".
+21:39:59:722 [23000] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Technicolor2.fx".
+21:39:59:723 [20860] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\qUINT_dof.fx".
+21:39:59:723 [22216] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\CinematicDOF.fx".
+21:39:59:724 [12612] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Tonemap.fx".
+21:39:59:725 [11324] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\Vibrance.fx".
+21:39:59:725 [07860] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\WatchDogTonemap.fx".
+21:39:59:731 [18580] | INFO  | Successfully loaded "D:\\games\\FF14\\最终幻想XIV\\game\\reshade-shaders\\Shaders\\SMAA.fx".
+21:40:01:272 [12024] | INFO  | Loading image files for textures ...
+21:42:20:039 [12024] | INFO  | Loading image files for textures ...
+21:42:26:450 [12024] | INFO  | Loading image files for textures ...
+21:42:36:809 [12024] | INFO  | Redirecting 'CreateDXGIFactory({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DEF48)' ...
+21:42:36:809 [12024] | INFO  | > Passing on to 'CreateDXGIFactory1':
+21:42:36:809 [12024] | INFO  | Redirecting 'CreateDXGIFactory1({7B7166EC-21C7-44AE-B21A-C9AE321AE369}, 0000005AD57DEF48)' ...
