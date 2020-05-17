@@ -11,3 +11,7 @@ ffxivgame.ver
 fileinfo.fiin
 license.txt
 uninst.exe
+SoundCoreBridge.dll
+SoundCoreBridge7.dll
+XInputXIV9.dll
+XInputXIV3.dll
